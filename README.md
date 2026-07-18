@@ -20,7 +20,7 @@ npm run preview
 
 ## Deployment
 
-Netlify is configured to build with `npm run build` and publish the `dist` directory.
+Vercel can build the site with `npm run build` and publish the `dist` output directory via [vercel.json](/Users/patmellon/Desktop/workspace/mellonomicon/vercel.json).
 
 ## Portrait
 
