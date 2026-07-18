@@ -1,16 +1,27 @@
 # The Mellonomicon
 
-Welcome to my personal website. The site uses:
+Minimal static personal landing page for Pat Mellon, built with React, TypeScript, and Vite.
 
-- [Gatsby](https://github.com/gatsbyjs/gatsby)
-- [Typescript](https://github.com/microsoft/TypeScript)
-- [Netlify](https://www.netlify.com/)
+## Local development
 
-### Setup
-```
-git clone git@github.com:patmellon/mellonomicon.git
-cd mellonomicon
+```bash
 nvm use
-yarn
-yarn start
+npm install
+npm run dev
 ```
+
+## Build
+
+```bash
+nvm use
+npm run build
+npm run preview
+```
+
+## Deployment
+
+Netlify is configured to build with `npm run build` and publish the `dist` directory.
+
+## Portrait
+
+Place the portrait image at `public/pat-portrait.jpg`. If that file is missing, the page renders a simple placeholder instead.
